@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3DA3C715ECA06C00AB19FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3DA3C615ECA06C00AB19FC /* Foundation.framework */; };
+		4D3DA3CC15ECA06C00AB19FC /* cubeInteractionLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D3DA3CB15ECA06C00AB19FC /* cubeInteractionLib.h */; };
+		4D3DA3CE15ECA06C00AB19FC /* cubeInteractionLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA3CD15ECA06C00AB19FC /* cubeInteractionLib.m */; };
+		4D3DA3DA15ECA09D00AB19FC /* cubeAccelerationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA3D515ECA09D00AB19FC /* cubeAccelerationEngine.m */; };
+		4D3DA3DB15ECA09D00AB19FC /* cubeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA3D715ECA09D00AB19FC /* cubeAction.m */; };
+		4D3DA3DC15ECA09D00AB19FC /* cubeGyroEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DA3D915ECA09D00AB19FC /* cubeGyroEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D3DA3C115ECA06C00AB19FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				4D3DA3CC15ECA06C00AB19FC /* cubeInteractionLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D3DA3C315ECA06C00AB19FC /* libcubeInteractionLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcubeInteractionLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3DA3C615ECA06C00AB19FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D3DA3CA15ECA06C00AB19FC /* cubeInteractionLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cubeInteractionLib-Prefix.pch"; sourceTree = "<group>"; };
+		4D3DA3CB15ECA06C00AB19FC /* cubeInteractionLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cubeInteractionLib.h; sourceTree = "<group>"; };
+		4D3DA3CD15ECA06C00AB19FC /* cubeInteractionLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cubeInteractionLib.m; sourceTree = "<group>"; };
+		4D3DA3D415ECA09D00AB19FC /* cubeAccelerationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubeAccelerationEngine.h; sourceTree = "<group>"; };
+		4D3DA3D515ECA09D00AB19FC /* cubeAccelerationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cubeAccelerationEngine.m; sourceTree = "<group>"; };
+		4D3DA3D615ECA09D00AB19FC /* cubeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubeAction.h; sourceTree = "<group>"; };
+		4D3DA3D715ECA09D00AB19FC /* cubeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cubeAction.m; sourceTree = "<group>"; };
+		4D3DA3D815ECA09D00AB19FC /* cubeGyroEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cubeGyroEngine.h; sourceTree = "<group>"; };
+		4D3DA3D915ECA09D00AB19FC /* cubeGyroEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cubeGyroEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3DA3C015ECA06C00AB19FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DA3C715ECA06C00AB19FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3DA3B815ECA06C00AB19FC = {
+			isa = PBXGroup;
+			children = (
+				4D3DA3C815ECA06C00AB19FC /* cubeInteractionLib */,
+				4D3DA3C515ECA06C00AB19FC /* Frameworks */,
+				4D3DA3C415ECA06C00AB19FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3DA3C415ECA06C00AB19FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DA3C315ECA06C00AB19FC /* libcubeInteractionLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3DA3C515ECA06C00AB19FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DA3C615ECA06C00AB19FC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D3DA3C815ECA06C00AB19FC /* cubeInteractionLib */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DA3D415ECA09D00AB19FC /* cubeAccelerationEngine.h */,
+				4D3DA3D515ECA09D00AB19FC /* cubeAccelerationEngine.m */,
+				4D3DA3D615ECA09D00AB19FC /* cubeAction.h */,
+				4D3DA3D715ECA09D00AB19FC /* cubeAction.m */,
+				4D3DA3D815ECA09D00AB19FC /* cubeGyroEngine.h */,
+				4D3DA3D915ECA09D00AB19FC /* cubeGyroEngine.m */,
+				4D3DA3CB15ECA06C00AB19FC /* cubeInteractionLib.h */,
+				4D3DA3CD15ECA06C00AB19FC /* cubeInteractionLib.m */,
+				4D3DA3C915ECA06C00AB19FC /* Supporting Files */,
+			);
+			path = cubeInteractionLib;
+			sourceTree = "<group>";
+		};
+		4D3DA3C915ECA06C00AB19FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DA3CA15ECA06C00AB19FC /* cubeInteractionLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3DA3C215ECA06C00AB19FC /* cubeInteractionLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3DA3D115ECA06C00AB19FC /* Build configuration list for PBXNativeTarget "cubeInteractionLib" */;
+			buildPhases = (
+				4D3DA3BF15ECA06C00AB19FC /* Sources */,
+				4D3DA3C015ECA06C00AB19FC /* Frameworks */,
+				4D3DA3C115ECA06C00AB19FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cubeInteractionLib;
+			productName = cubeInteractionLib;
+			productReference = 4D3DA3C315ECA06C00AB19FC /* libcubeInteractionLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3DA3BA15ECA06C00AB19FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jan Christian Brønd";
+			};
+			buildConfigurationList = 4D3DA3BD15ECA06C00AB19FC /* Build configuration list for PBXProject "cubeInteractionLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D3DA3B815ECA06C00AB19FC;
+			productRefGroup = 4D3DA3C415ECA06C00AB19FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3DA3C215ECA06C00AB19FC /* cubeInteractionLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3DA3BF15ECA06C00AB19FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DA3CE15ECA06C00AB19FC /* cubeInteractionLib.m in Sources */,
+				4D3DA3DA15ECA09D00AB19FC /* cubeAccelerationEngine.m in Sources */,
+				4D3DA3DB15ECA09D00AB19FC /* cubeAction.m in Sources */,
+				4D3DA3DC15ECA09D00AB19FC /* cubeGyroEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D3DA3CF15ECA06C00AB19FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D3DA3D015ECA06C00AB19FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3DA3D215ECA06C00AB19FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cubeInteractionLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cubeInteractionLib/cubeInteractionLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D3DA3D315ECA06C00AB19FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cubeInteractionLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cubeInteractionLib/cubeInteractionLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3DA3BD15ECA06C00AB19FC /* Build configuration list for PBXProject "cubeInteractionLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DA3CF15ECA06C00AB19FC /* Debug */,
+				4D3DA3D015ECA06C00AB19FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3DA3D115ECA06C00AB19FC /* Build configuration list for PBXNativeTarget "cubeInteractionLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DA3D215ECA06C00AB19FC /* Debug */,
+				4D3DA3D315ECA06C00AB19FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3DA3BA15ECA06C00AB19FC /* Project object */;
+}
